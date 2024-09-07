@@ -92,7 +92,7 @@ def main():
         else:
             print("Invalid option selected.")
 
-        # Ask the user if they want to repeat the process
+        # Ask the user
         repeat = input("Do you want to download another file or set of files? (y/n): ").strip().lower()
         if repeat != 'y':
             print("Exiting the script.")
